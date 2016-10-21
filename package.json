@@ -1,0 +1,37 @@
+{
+  "name": "storyteller",
+  "version": "1.0.0",
+  "description": "Tiny project that tells what is going on",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js --harmony",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "StoryTeller",
+    "webpack": "webpack --progress --color"
+  },
+  "keywords": [
+    "photos",
+    "story",
+    "posts"
+  ],
+  "author": "GrandPROD",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "restify": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-preset-stage-2": "^6.17.0",
+    "json-loader": "^0.5.4",
+    "webpack": "^1.13.2"
+  }
+}
